@@ -5,6 +5,7 @@ The run_analysis.R file does the following:
 
 
 1- Clears the data and vriables loaded into R.
+
 2- Checks if zip folder is already downloaded. If not, downloads it. If the folder is not already unzipped, it unzips the folder.
 3- Reads data from downloaded and unzipped text files. It reads the test and train data sets along with features, activities and        subject IDs for test and train datasets. 
 4- Assigns descriptive column names to subject_test and subject_train.
